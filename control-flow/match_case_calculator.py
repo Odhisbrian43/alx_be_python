@@ -2,11 +2,10 @@
 
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-day = input("Enter the operation (+, -, *, /): ")
+operation = input("Enter the operation (+, -, *, /): ")
 
-match day:
+match operation:
     case "+":
-#operation == '+'
       num3 = num1 + num2
       print("The result is ", num3)
     case "-":
