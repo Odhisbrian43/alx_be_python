@@ -1,8 +1,8 @@
 #Temperature conversion
 
-FAHRENHEIT_TO_CELSIUS_FACTOR = float(5/9)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 
-CELSIUS_TO_FAHRENHEIT_FACTOR = float(9/5)
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 temp = int(input("Enter the temperature to convert: "))
 
@@ -31,7 +31,5 @@ elif unit == "C":
 else:
 
     print("invalid input, try again.")
-
-
 
 
