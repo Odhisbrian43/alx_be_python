@@ -6,11 +6,15 @@ def perform_operation(num1, num2, operation):
 
         case "add":
 
+            operation == "add"
+
             num1 + num2 = result
 
             print("Result: ", result)
 
         case "subtract":
+
+            operation == "subtract"
 
             num1 - num2 = result
 
@@ -18,11 +22,15 @@ def perform_operation(num1, num2, operation):
 
         case "multiply":
 
+            operation == "multiply"
+
             num1 * num2 = result
 
             print("Result: " result)
 
         case "divide":
+
+            operation == "divide"
             
             if num2 > 0:
 
