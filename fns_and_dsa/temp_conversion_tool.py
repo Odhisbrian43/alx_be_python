@@ -34,6 +34,5 @@ elif unit == "C":
 
 else:
 
-    print("invalid input, try again.")
-
+    print("Invalid temperature. Please enter a numeric value.")
 
