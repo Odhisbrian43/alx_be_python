@@ -10,7 +10,7 @@ def display_current_datetime():
 
     current_date = datetime.now()
     
-    time = current_date.strftime("%d-%m-%Y %H:%M:%S")
+    time = current_date.strftime("%Y-%m-%d %H:%M:%S")
 
     print("Current date and time is ",time)
 
