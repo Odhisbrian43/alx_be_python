@@ -1,12 +1,6 @@
 #function for arithmetics
-    
-num1 = float(input("Enter first number: "))
 
-num2 = float(input("Enter second number: "))
-
-operation = input("Enter the operation (add, subtract, multiply, divide): ")
-
-def perform_operation():
+def perform_operation(num1, num2, operation):
 
     match operation:
 
