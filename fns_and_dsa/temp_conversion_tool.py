@@ -12,7 +12,7 @@ if unit == "F":
 
     def convert_to_celsius(fahrenheit):
 
-        result = (temp - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
+        result = FAHRENHEIT_TO_CELSIUS_FACTOR - 32 * temp
 
         print(f"{temp}°F is {result}°C")
 
@@ -22,7 +22,7 @@ elif unit == "C":
 
     def convert_to_fahrenheit(celsius):
 
-       result1 = (temp + 32) * CELSIUS_TO_FAHRENHEIT_FACTOR
+       result1 = CELSIUS_TO_FAHRENHEIT_FACTOR + 32 * temp
 
        print(f"{temp}°C is {result1}°F")
 
