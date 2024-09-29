@@ -26,6 +26,6 @@ def calculate_future_date():
 
     future_date = current_date + delta
 
-    print(future_date)
+    print(future_date.strftime("%Y-%m-%d %H:%M:%S"))
 
 calculate_future_date()
