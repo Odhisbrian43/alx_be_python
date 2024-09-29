@@ -38,9 +38,9 @@ def perform_operation(num1, num2, operation):
 
                 print("Result: ", result)
 
-            else:
+            elif:
 
-                print("Cannot divide by zero")
+                return "Cannot divide by zero"
         case _:
 
             print("Invalid operation entered, try again.")
