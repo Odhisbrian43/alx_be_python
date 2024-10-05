@@ -1,16 +1,12 @@
 #function for arithmetics
 
-def perform_operation():
-
-    num1 = float(input("Enter first number: "))
-
-    num2 = float(input("Enter second number: "))
-
-    operation = input("Enter the operation (add, subtract, multiply, divide): ")
+def perform_operation(num1, num2, operation):
 
     match operation:
 
         case "add":
+
+            operation == "add"
 
             num1 + num2 = result
 
@@ -18,17 +14,23 @@ def perform_operation():
 
         case "subtract":
 
+            operation == "subtract"
+
             num1 - num2 = result
 
             print("Result: ", result)
 
         case "multiply":
 
+            operation == "multiply"
+
             num1 * num2 = result
 
             print("Result: " result)
 
         case "divide":
+
+            operation == "divide"
             
             if num2 > 0:
 
@@ -36,9 +38,9 @@ def perform_operation():
 
                 print("Result: ", result)
 
-            else:
+            elif num2 == 0: 
 
-                print("Cannot divide by zero")
+                return "Cannot divide by zero"
         case _:
 
             print("Invalid operation entered, try again.")
