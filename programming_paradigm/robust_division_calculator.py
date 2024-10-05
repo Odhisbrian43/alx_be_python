@@ -8,6 +8,6 @@ def safe_divide(numerator, denominator):
         else:
            return numerator / denominator
     except:
-        str(numerator, denominator)
+        numbers = ["str(numerator)", "str(denominator)"]
         raise ValueError ("Error: Please enter numeric values only.")
 
