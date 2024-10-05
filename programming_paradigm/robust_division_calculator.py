@@ -10,7 +10,7 @@ def safe_divide(numerator, denominator):
         #if float(denominator) == 0:
             #raise 
     except ZeroDivisionError:
-        print("Error: Cannot divide by zero.")
+        return "Error: Cannot divide by zero."
         #else:
             #return f"The result of the division is " 
     except ValueError:
