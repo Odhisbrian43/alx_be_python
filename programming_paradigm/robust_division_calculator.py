@@ -6,8 +6,7 @@ def safe_divide(numerator, denominator):
     #float(denominator) = input()
     try:
         if float(denominator) == 0:
-            raise ZeroDivisionError:
-                return "Error: Cannot divide by zero."
+            raise ZeroDivisionError  "Error: Cannot divide by zero."
         else:
             #return f"The result of the division is " 
             result = float(numerator) / float(denominator)
