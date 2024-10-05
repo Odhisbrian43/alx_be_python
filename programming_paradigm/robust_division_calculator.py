@@ -7,7 +7,7 @@ def safe_divide(numerator, denominator):
            raise ZeroDivisionError ("Error: Cannot divide by zero.")
         else:
            return "float(numerator)" / "float(denominator)"
-    except:
-        numbers = ["str(numerator)", "str(denominator)"]
-        raise ValueError : Error: Please enter numeric values only.
+    except ValueError: 
+        print("Error: Please enter numeric values only.")
+        #numbers = ["str(numerator)", "str(denominator)"]
 
