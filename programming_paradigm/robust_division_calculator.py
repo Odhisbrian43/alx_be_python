@@ -1,4 +1,4 @@
-#Division calculator.
+#Division calculator script.
 
 def safe_divide(numerator, denominator):
     try:
