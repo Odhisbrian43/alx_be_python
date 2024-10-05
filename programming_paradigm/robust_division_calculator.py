@@ -6,12 +6,13 @@ def safe_divide(numerator, denominator):
     #float(denominator) = input()
     try:
         if float(denominator) == 0:
-            raise ZeroDivisionError("Error: Cannot divide by zero.")
+            raise ZeroDivisionError:
+                return "Error: Cannot divide by zero."
         else:
             #return f"The result of the division is " 
             result = float(numerator) / float(denominator)
             return f"The result of the division is {result}"
     except ValueError:
-        print("Error: Please enter numeric values only.")
+        return "Error: Please enter numeric values only."
         #numbers = ["str(numerator)", "str(denominator)"]
 
