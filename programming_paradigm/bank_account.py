@@ -21,5 +21,6 @@ class BankAccount:
         else:
             False
     def display_balance(amount):
-        amount = input()
+        #self.amount = amount
+        #amount = input()
         return f"Current Balance: {amount}"
