@@ -8,7 +8,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.amount = amount
-        self.amount = input()
+        #self.amount = input()
         self.account_balance == 0
         return self.account_balance + self.amount
 
