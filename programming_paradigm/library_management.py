@@ -1,6 +1,6 @@
 #library
 
-class book:
+class Book:
 
     def __init__(self, title, author, _is_checked_out):
         self.title = title
@@ -9,7 +9,7 @@ class book:
     def book_id(self):
         self.book_id = f"{self.tile} by {self.author} {_is_checked_out}"
         return self.book_id
-class library:
+class Library:
     __books = []
 
     def add_book(self, title, author):
