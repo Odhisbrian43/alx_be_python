@@ -20,6 +20,6 @@ class BankAccount:
             return self.account_balance - self.amount
         else:
             False
-    def display_balance(self):
-        #self.amount = amount
+    def display_balance(amount):
+        amount = input()
         return f"Current Balance: {amount}"
