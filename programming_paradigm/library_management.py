@@ -10,12 +10,12 @@ class Book:
         self.book_id = f"{self.tile} by {self.author} {_is_checked_out}"
         return self.book_id
 class Library:
-    __books = []
 
     def add_book(self, title, author):
+        self._books = []
         self.title = input()
         self.author = input()
-        __books.appand("{self.title}, {self.author}") 
+        self._books.appand("{self.title}, {self.author}") 
     def check_out_book(self, title):
         if self.title in __books:
             pass
