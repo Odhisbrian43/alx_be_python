@@ -15,7 +15,7 @@ class Library:
         self._books = []
         self.title = input()
         self.author = input()
-        self._books.appand("{self.title}, {self.author}") 
+        self._books.append("{self.title}, {self.author}") 
     def check_out_book(self, title):
         if self.title in __books:
             pass
