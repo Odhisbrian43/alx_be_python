@@ -19,9 +19,9 @@ class Library:
     def check_out_book(self, title):
         if self.title in __books:
             pass
-    def return_book(self, title):
+    def return_book(self):
+        True
         if self.title in __books:
-            False
     def list_available_books(self):
         for i in __books:
             print(i)
