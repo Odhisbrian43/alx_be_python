@@ -16,4 +16,4 @@ class BankAccount:
         if self.account_balance > self.amount:
             return self.account_balance - self.amount
     def display_balance(self):
-        print(self.account_balance)
+        return f"Current Balance: {self.account_balance}"
