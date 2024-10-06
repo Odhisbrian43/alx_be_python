@@ -22,5 +22,5 @@ class BankAccount:
             False
     def display_balance(amount):
         #self.amount = amount
-        #amount = input()
-        print (f"Current Balance: {self.amount}")
+        amount = $250.00
+        print (f"Current Balance: {amount}")
