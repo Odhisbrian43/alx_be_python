@@ -10,7 +10,7 @@ class BankAccount:
         self.amount = amount
         self.amount = input()
         self.account_balance == 0
-        return self.account_balance += self.amount
+        return self.account_balance + self.amount
 
     def withdraw(self, amount):
         if self.account_balance > self.amount:
