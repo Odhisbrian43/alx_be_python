@@ -19,9 +19,9 @@ class PrintBook(Book):
     def __str__(self):
 
 class Library:
-   # def __init__(self, books):
-        #self.books = books
-    books = []
+    def __init__(self, books):
+        self.books = []
+    #books = []
 
     def add_book(self, book):
         #book = 
