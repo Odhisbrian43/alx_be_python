@@ -1,5 +1,7 @@
 #polymophism
 
+import math
+
 class Shape:
     def area(self):
         raise NotImplementedError
